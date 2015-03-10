@@ -1,0 +1,64 @@
+MainOverlay
+{
+	container Panel(MainContainer)
+	{
+		transparent true
+		left 0
+		top 0
+		width 1
+		height 1
+		
+		element Panel(Crosshair)
+		{
+		   left 0.48
+		   top 0.485
+		   width 0.04
+		   height 0.06
+		   material Crosshair
+		   transparent false
+		   uv_coords 0 0 1 1
+		}
+		
+		element TextArea(Health)
+		{
+		   left 0.05
+		   top 0.85
+		   char_height 0.04
+		   colour 1 1 1 
+		   font_name TrebuchetMSBold
+  		   caption Velocity
+		}
+
+		element TextArea(Kills)
+		{
+		   left 0.05
+		   top 0.90
+		   char_height 0.04
+		   colour 1 1 1 
+		   font_name TrebuchetMSBold
+  		   caption Velocity
+		}
+
+		element TextArea(Speed)
+		{
+		   left 0.05
+		   top 0.95
+		   char_height 0.04
+		   colour 1 1 1 
+		   font_name TrebuchetMSBold
+  		   caption Velocity
+		}
+
+		element TextArea(GameOver)
+		{
+		   left 0.2
+		   top 0.4
+		   char_height 0.2
+		   colour 1 0 0 
+		   font_name TrebuchetMSBold
+  		   caption Velocity
+		}
+	 }
+		 
+	}
+}

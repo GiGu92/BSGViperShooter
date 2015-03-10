@@ -85,6 +85,33 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="..\bin\media\crosshair.png" />
+    <None Include="..\bin\media\cylonmusic.wav" />
+    <None Include="..\bin\media\explode.dds" />
+    <None Include="..\bin\media\explode.hlsl" />
+    <None Include="..\bin\media\explode_fp.glsl" />
+    <None Include="..\bin\media\explode_vp.glsl" />
+    <None Include="..\bin\media\Explosion.material" />
+    <None Include="..\bin\media\explosion.wav" />
+    <None Include="..\bin\media\flare.png" />
+    <None Include="..\bin\media\fonts.fontdef" />
+    <None Include="..\bin\media\gunshot.wav" />
+    <None Include="..\bin\media\HUD.overlay" />
+    <None Include="..\bin\media\model\cube.material" />
+    <None Include="..\bin\media\model\cube.mesh" />
+    <None Include="..\bin\media\model\Raider\CYLMFTR1.png" />
+    <None Include="..\bin\media\model\Raider\Cylon-Raider.mesh" />
+    <None Include="..\bin\media\model\Raider\Cylon-Raider.mesh.xml" />
+    <None Include="..\bin\media\model\Viper\COLMFTR1.JPG" />
+    <None Include="..\bin\media\model\Viper\Viper-Mk-II.mesh" />
+    <None Include="..\bin\media\model\Viper\Viper-Mk-II.mesh.xml" />
+    <None Include="..\bin\media\projectile.jpg" />
+    <None Include="..\bin\media\prop.png" />
+    <None Include="..\bin\media\propdetail.png" />
+    <None Include="..\bin\media\Scene.material" />
+    <None Include="..\bin\media\Scene.particle" />
+    <None Include="..\bin\media\skybox.dds" />
+    <None Include="..\bin\media\trebucbd.ttf" />
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>

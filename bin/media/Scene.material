@@ -1,0 +1,158 @@
+material Viper
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse   1.0000   1.0000   1.0000 0.00392156862745098
+			specular 1 1 1 1   3.2000
+
+			texture_unit
+			{
+				texture "model/Viper/COLMFTR1.JPG"
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op modulate
+			}
+		}
+	}
+}
+
+material Raider
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse   1.0000   1.0000   1.0000 0.00392156862745098
+			specular 1 1 1 1   3.2000
+
+			texture_unit
+			{
+				texture "model/Raider/CYLMFTR1.png"
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op modulate
+			}
+		}
+	}
+}
+
+material Default_Material
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 1 3.2
+		}
+	}
+} 
+
+material Space
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			cull_hardware none
+			depth_check off
+			texture_unit
+			{
+				cubic_texture skybox.dds combinedUVW
+				tex_address_mode clamp
+			}
+		}
+	}
+} 
+
+material lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+		}
+
+	}
+
+}
+
+material SpaceDust
+{
+	technique
+	{
+		pass
+		{
+			scene_blend add
+			lighting off
+			depth_write off
+			texture_unit
+			{
+				texture flare.png
+			}
+		}
+	}
+}
+
+material Thrusters
+{
+	technique
+	{
+		pass
+		{
+			scene_blend add
+			lighting off
+			depth_write off
+			texture_unit
+			{
+				texture flare.png
+			}
+		}
+	}
+}
+
+material Projectile
+{
+   technique
+   {
+      pass
+      {
+         lighting off
+         scene_blend add
+         depth_write off
+
+         texture_unit projectile
+         {
+            texture projectile.jpg
+         }
+         
+      }
+   }
+}
+
+material Crosshair
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit crosshair
+			{
+				texture crosshair.png
+			}
+		}
+	}
+}

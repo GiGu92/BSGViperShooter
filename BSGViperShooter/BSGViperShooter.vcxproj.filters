@@ -13,9 +13,105 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="bin">
+      <UniqueIdentifier>{f5f1b81d-9197-4ddc-9e04-6a8854261720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin\media">
+      <UniqueIdentifier>{639f3033-aa6c-4020-ac29-e45a113daf02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin\media\model">
+      <UniqueIdentifier>{ca5ef8e3-4a7e-4d76-a70a-cd80d82c47ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin\media\model\Viper">
+      <UniqueIdentifier>{a9e59847-685f-409e-b99e-3f5ab7cdd0ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin\media\model\Raider">
+      <UniqueIdentifier>{9e444df5-31be-476c-bfd7-05f2c4114163}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
+    <None Include="..\bin\media\crosshair.png">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\cylonmusic.wav">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\explode.dds">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\explode.hlsl">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\explode_fp.glsl">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\explode_vp.glsl">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\Explosion.material">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\explosion.wav">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\flare.png">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\fonts.fontdef">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\gunshot.wav">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\HUD.overlay">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\projectile.jpg">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\prop.png">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\propdetail.png">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\Scene.material">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\Scene.particle">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\skybox.dds">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\trebucbd.ttf">
+      <Filter>bin\media</Filter>
+    </None>
+    <None Include="..\bin\media\model\cube.material">
+      <Filter>bin\media\model</Filter>
+    </None>
+    <None Include="..\bin\media\model\cube.mesh">
+      <Filter>bin\media\model</Filter>
+    </None>
+    <None Include="..\bin\media\model\Viper\COLMFTR1.JPG">
+      <Filter>bin\media\model\Viper</Filter>
+    </None>
+    <None Include="..\bin\media\model\Viper\Viper-Mk-II.mesh">
+      <Filter>bin\media\model\Viper</Filter>
+    </None>
+    <None Include="..\bin\media\model\Viper\Viper-Mk-II.mesh.xml">
+      <Filter>bin\media\model\Viper</Filter>
+    </None>
+    <None Include="..\bin\media\model\Raider\CYLMFTR1.png">
+      <Filter>bin\media\model\Raider</Filter>
+    </None>
+    <None Include="..\bin\media\model\Raider\Cylon-Raider.mesh">
+      <Filter>bin\media\model\Raider</Filter>
+    </None>
+    <None Include="..\bin\media\model\Raider\Cylon-Raider.mesh.xml">
+      <Filter>bin\media\model\Raider</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
